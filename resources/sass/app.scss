@@ -1,0 +1,68 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+@import './_variables.scss';
+
+@import './admin.scss';
+
+
+body {
+    font-family: 'Montserrat', sans-serif!important;
+    position: relative!important;
+    height: initial!important;
+    background: #f1f2fc!important;
+}
+
+    //font-family: wildYouth, "Brush Script MT", cursive;
+.sidebar-wrapper 
+.router-link-exact-active{
+    background-color: #3f51b5;
+    color:#fff !important;
+    
+    
+}
+
+.text-primary {
+    font-weight: bold;
+    font-size: 20px;
+    color: #6cb2eb !important;
+  }
+  .bcustom-primary {
+    color: #fff;
+    background: #6cb2eb !important;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    text-transform: uppercase;
+  
+    &:hover {
+      color: #fff;
+      background: #e4a747;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  
+  .modal-custom-header {
+    color: #fff;
+    font-size: 1rem;
+    background: #6cb2eb !important;
+    border-radius: 0;
+  }
+
+@media print {
+	.table-responsive table{
+		background-color: transparent !important;
+	}
+
+}
